@@ -1,46 +1,24 @@
-.principal{
-    padding: 20px;
-    height: 500px;
-    width: 500px;
-    box-sizing: content-box;
-    background-color: lightgray;
+body{
+    width: 1000px;
 }
-
-.caja2, .caja3, .caja4, .caja5{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.caja2{
-    height: 30px;
-    width: 50px;
-    background-color: white;
-    margin-left: 20px;
-    margin-right: 430px;
-}
-
-.caja3{
-    height: 30px;
-    width: 50px;
-    background-color: yellow;
-    margin-left: 230px;
-    margin-right: 220px;
-}
-
-.caja4{
-    height: 30px;
-    width: 50px;
-    background-color: blue;
-    margin-left: 370px;
-    margin-right: 80px;
-}
-
-.caja5{
-    padding: 20px;
+header{
+    width: 1000px;
     height: 200px;
-    width: 400px;
+}
+footer{
+    width: 1000px;
+    height: 200px;
+}
+main{
+    width: 1000px;
+}
+.cajaIzq{
+    width:400px;
+    height: 200px;
     background-color: red;
-    margin-left: 50px;
-    margin-right: 50px;
+    float: left;
+}
+.cajaDer{
+    width:600px;
+    float: left;
 }

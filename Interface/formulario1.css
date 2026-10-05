@@ -1,37 +1,25 @@
-/* EN LÍNEA + CON WIDTH */
-
-label {
-    width: 200px;
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
 }
-
-
-/* EN LÍNEA + SIN WIDTH */
-/*
-label {
-}
-*/
-
-/* EN BLOQUE + CON WIDTH */
 
 h1 {
-    width: 200px;
+    color: #333;
 }
-
-
-
-/* EN BLOQUE + SIN WIDTH */
-/*
-h1 {
-}
-*/
 
 form {
-    padding: 0 25% 0 25%;
-    margin: 0 20% 0 20%;
-    background-color: red;
-    /*box-sizing: border-box; prueba de content-box y border box*/
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    border: 1px solid #ccc;
 }
 
-select {
-    text-align: center;
+input, select, textarea {
+    margin: 5px;
 }
+
+textarea {
+    width: 300px;
+    height: 80px;
+}
+

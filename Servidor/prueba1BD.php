@@ -1,21 +1,33 @@
 <?php
-    $mysqli = new mysqli("127.0.0.1","root","","prueba1");
-    function primeraFila($mysqli){
-        $resultado = $mysqli->query("SELECT * FROM asignatura");
+    $conexion = new mysqli("127.0.0.1","root","","prueba1");
+    /*function primeraFila($conexion){
+        $resultado = $conexion->query("SELECT * FROM asignatura");
         $fila = $resultado->fetch_array();
         /*foreach ($fila as $registro) {
             echo $registro.' ';
-        }*/
+        }
         for($i=0;i<count($fila);$i++){
             echo fila[i].' ';
         }
     }
-    primeraFila($mysqli);
+    primeraFila($conexion);
     echo '<br/>';
-    function numeroFilas($mysqli){
-        $resultado = $mysqli->query("SELECT * FROM asignatura");
+    function numeroFilas($conexion){
+        $resultado = $conexion->query("SELECT * FROM asignatura");
         $fila = $resultado->num_rows();
         echo $fila;
     }
-    numeroFilas($mysqli);
+    numeroFilas($conexion);*/
+    function mostrarIndiceYAsignatura($conexion){
+        $resultado = $conexion->query("SELECT * FROM asignatura");
+        while ($fila = $resultado->fetch_array()) {
+            while ($fila = $resultado->fetch_array()) {
+                echo $fila["codigo"].' '.$fila["color"].' '.$fila["asignatura"].'<br/>';
+                
+            }
+        }
+
+
+    }
+    mostrarIndiceYAsignatura($conexion);
 ?>
