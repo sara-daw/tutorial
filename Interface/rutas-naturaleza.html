@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Rutas & Naturaleza</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Rutas & Naturaleza</h1>
+            <p>Descubre. Explora. Disfruta.</p>
+        </div>
+        <div class="imagenLogo">
+            <img src="imagen_header_montanas.png" alt="Logo de montañas">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#inicio">Inicio</a>
+            </li>
+            <li>
+                <a href="#principal">Rutas</a>
+            </li>
+            <li>
+                <a href="#sobre-nosotros">Sobre nosotros</a>
+            </li>
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio">
+
+        <section class="principal" id="principal">
+            <div class="imagenPrincipal">
+                <img src="imagen_principal_paisaje.png" alt="Montañas y lago">
+            </div>
+
+            <div class="bloqueDeTexto">
+                <h1>Tu próxima aventura te está esperando</h2>
+                <p>
+                    Explora nuestras rutas de senderismo y descubre paisajes únicos.
+                    Naturaleza, aire libre y experiencias inolvidables te esperan.
+                </p>
+            </div>
+        </section>
+
+        <section class="secundaria" id="secundaria">
+
+            <form id="reserva-form">
+                <fieldset>
+                    <legend><h2>Reserva tu ruta</h2></legend>
+
+                    <label for="actividad">Actividad *</label>
+                    <select class="actividad" name="actividad" required>
+                        <option value="">Selecciona una actividad</option>
+                        <option value="senderismo">Senderismo</option>
+                        <option value="montana">Montaña</option>
+                        <option value="mirador">Ruta de miradores</option>
+                    </select>
+
+                    <br><br>
+
+                    <div class="campo">
+                        <label for="fecha">Fecha *</label>
+                        <input type="date" class="fecha" name="fecha" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="personas">N.º personas *</label>
+                        <input type="number" class="personas" name="personas" min="1" required>
+                    </div>
+
+                    <br><br>
+
+                    <label for="comentarios">Comentarios (opcional)</label>
+                    <textarea class="comentarios" name="comentarios"
+                              placeholder="Escribe aquí tus comentarios..."
+                              rows="4"></textarea>
+
+                    <br>
+
+                    <button type="submit">Reservar</button>
+                </fieldset>
+            </form>
+
+            <div class="bloqueSecundario">
+                <div class="imagenSecundaria">
+                    <img src="imagen_secundaria_sendero.png" alt="Ruta de montaña">
+                </div>
+                
+
+                <div class="ventajas">
+                    <h1>¿Por qué elegimos?</h1>
+                    <ul>
+                        <li>Rutas para todos los niveles</li>
+                        <li>Guías especializados</li>
+                        <li>Grupos reducidos</li>
+                        <li>Respeto por el medio ambiente</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="contacto">
+        <p>© 2025 Rutas & Naturaleza. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

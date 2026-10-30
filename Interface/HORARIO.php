@@ -1,0 +1,119 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="HORARIO.css">
+    <title>Alta de horario</title>
+</head>
+<body>
+    <h1>Alta de horario</h1>
+    <form method="post">
+        <div class="contenedor">
+            <table>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <th>8:15 - 9:10</th>
+                    <td><select name="asignatura_lunes_1"></select><select name="profesor_lunes_1"></select></td>
+                    <td><select name="asignatura_martes_1"></select><select name="profesor_martes_1"></select></td>
+                    <td><select name="asignatura_miercoles_1"></select><select name="profesor_miercoles_1"></select></td>
+                    <td><select name="asignatura_jueves_1"></select><select name="profesor_jueves_1"></select></td>
+                    <td><select name="asignatura_viernes_1"></select><select name="profesor_viernes_1"></select></td>
+                </tr>
+                <tr>
+                    <th>9:10 - 10:05</th>
+                    <td><select name="asignatura_lunes_2"></select><select name="profesor_lunes_2"></select></td>
+                    <td><select name="asignatura_martes_2"></select><select name="profesor_martes_2"></select></td>
+                    <td><select name="asignatura_miercoles_2"></select><select name="profesor_miercoles_2"></select></td>
+                    <td><select name="asignatura_jueves_2"></select><select name="profesor_jueves_2"></select></td>
+                    <td><select name="asignatura_viernes_2"></select><select name="profesor_viernes_2"></select></td>
+                </tr>
+                <tr>
+                    <th>10:05 - 11:00</th>
+                    <td><select name="asignatura_lunes_3"></select><select name="profesor_lunes_3"></select></td>
+                    <td><select name="asignatura_martes_3"></select><select name="profesor_martes_3"></select></td>
+                    <td><select name="asignatura_miercoles_3"></select><select name="profesor_miercoles_3"></select></td>
+                    <td><select name="asignatura_jueves_3"></select><select name="profesor_jueves_3"></select></td>
+                    <td><select name="asignatura_viernes_3"></select><select name="profesor_viernes_3"></select></td>
+                </tr>
+                <tr>
+                    <th>11:30 - 12:25</th>
+                    <td><select name="asignatura_lunes_4"></select><select name="profesor_lunes_4"></select></td>
+                    <td><select name="asignatura_martes_4"></select><select name="profesor_martes_4"></select></td>
+                    <td><select name="asignatura_miercoles_4"></select><select name="profesor_miercoles_4"></select></td>
+                    <td><select name="asignatura_jueves_4"></select><select name="profesor_jueves_4"></select></td>
+                    <td><select name="asignatura_viernes_4"></select><select name="profesor_viernes_4"></select></td>
+                </tr>
+                <tr>
+                    <th>12:25 - 13:20</th>
+                    <td><select name="asignatura_lunes_5"></select><select name="profesor_lunes_5"></select></td>
+                    <td><select name="asignatura_martes_5"></select><select name="profesor_martes_5"></select></td>
+                    <td><select name="asignatura_miercoles_5"></select><select name="profesor_miercoles_5"></select></td>
+                    <td><select name="asignatura_jueves_5"></select><select name="profesor_jueves_5"></select></td>
+                    <td><select name="asignatura_viernes_5"></select><select name="profesor_viernes_5"></select></td>
+                </tr>
+                <tr>
+                    <th>13:20 - 14:15</th>
+                    <td><select name="asignatura_lunes_6"></select><select name="profesor_lunes_6"></select></td>
+                    <td><select name="asignatura_martes_6"></select><select name="profesor_martes_6"></select></td>
+                    <td><select name="asignatura_miercoles_6"></select><select name="profesor_miercoles_6"></select></td>
+                    <td><select name="asignatura_jueves_6"></select><select name="profesor_jueves_6"></select></td>
+                    <td><select name="asignatura_viernes_6"></select><select name="profesor_viernes_6"></select></td>
+                </tr>
+                <tr>
+                    <th>14:15 - 15:00</th>
+                    <td><select name="asignatura_lunes_7"></select><select name="profesor_lunes_7"></select></td>
+                    <td><select name="asignatura_martes_7"></select><select name="profesor_martes_7"></select></td>
+                    <td><select name="asignatura_miercoles_7"></select><select name="profesor_miercoles_7"></select></td>
+                    <td><select name="asignatura_jueves_7"></select><select name="profesor_jueves_7"></select></td>
+                    <td><select name="asignatura_viernes_7"></select><select name="profesor_viernes_7"></select></td>
+                </tr>
+            </table>
+
+            <div class="informacion">
+
+                <div>
+                    <p>Asignaturas</p>
+                    <ul>
+                        <li>IPP2</li>
+                        <li>DWESV</li>
+                        <li>PIMOD</li>
+                        <li>DEAPW</li>
+                        <li>DWENC</li>
+                        <li>SASP</li>
+                        <li>OPT 1</li>
+                        <li>OPT2A</li>
+                        <li>OPT2I</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>Profesores</p>
+                    <ul>
+                        <li>Luis Miguel Álvarez Recio</li>
+                        <li>Ernesto González Trives</li>
+                        <li>Santiago Vázquez Aguilar</li>
+                        <li>Alberto Domínguez Lebrato</li>
+                        <li>Isabel Muñoz Domínguez</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <input type="submit" value="Guardar horario">
+
+    </form>
+
+</body>
+</html>
+

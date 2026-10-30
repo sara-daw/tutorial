@@ -1,24 +1,21 @@
 body{
-    width: 1000px;
+    width: 100%;
+    background-color: yellow;
 }
-header{
-    width: 1000px;
-    height: 200px;
-}
-footer{
-    width: 1000px;
-    height: 200px;
-}
-main{
-    width: 1000px;
-}
-.cajaIzq{
-    width:400px;
-    height: 200px;
+div{
+    margin: 150px 400px 150px 400px;
     background-color: red;
-    float: left;
+    width: 600px;
+    height: 300px;
+    position: relative;
 }
-.cajaDer{
-    width:600px;
-    float: left;
+p{
+    height: 2em;
+    padding-top: 3px;
+    padding-left: 3px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top:0px;
+    left:0px;
 }
